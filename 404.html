@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>404 - Page Not Found - Unblocked Games</title>
+    <meta name="description" content="Oops! The page you're looking for seems to have wandered off. Let's get you back to the fun!">
+    <meta name="author" content="Unblocked Games">
+    <meta name="publisher" content="Sarkar Games">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://play-unblockedgames.github.io/404/">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/assest/css/all.css?v=2024061001" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link as="style" href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;display=swap" rel="stylesheet preload prefetch" crossorigin="anonymous">
+ 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JHDWB5TW6J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JHDWB5TW6J');
+</script>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+
+    .stars {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .star {
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        background: white;
+        border-radius: 50%;
+        animation: twinkle 2s ease-in-out infinite;
+    }
+
+    @keyframes twinkle {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.5); }
+    }
+
+    .error-container {
+        text-align: center;
+        padding: 40px 20px;
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+    }
+
+    .error-code {
+        font-family: 'Fredoka One', cursive;
+        font-size: 12rem;
+        line-height: 1;
+        background: linear-gradient(135deg, #667eea 0%, #f093fb 50%, #f5576c 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-shadow: none;
+        position: relative;
+        display: inline-block;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+    }
+
+    .error-code::after {
+        content: '404';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #f093fb 50%, #f5576c 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        filter: blur(20px);
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    .error-title {
+        font-family: 'Fredoka One', cursive;
+        font-size: 2.5rem;
+        color: #fff;
+        margin: 20px 0;
+        text-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+    }
+
+    .error-message {
+        font-size: 1.3rem;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 40px;
+        line-height: 1.8;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lost-game {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 40px;
+    }
+
+    .game-icon {
+        font-size: 8rem;
+        color: #667eea;
+        animation: bounce 1s ease-in-out infinite;
+        text-shadow: 0 0 30px rgba(102, 126, 234, 0.8);
+    }
+
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(-15px) rotate(5deg); }
+    }
+
+    .btn-group {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 18px 35px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+        font-family: 'Fredoka One', cursive;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+    }
+
+    .btn-secondary {
+        background: transparent;
+        color: white;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-5px);
+    }
+
+    .suggestions {
+        margin-top: 60px;
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .suggestions h3 {
+        font-family: 'Fredoka One', cursive;
+        color: #fff;
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+
+    .suggestion-links {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .suggestion-links a {
+        padding: 12px 25px;
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 0.95rem;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .suggestion-links a:hover {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        transform: translateY(-3px);
+        border-color: transparent;
+    }
+
+    .fun-facts {
+        margin-top: 50px;
+        padding: 30px;
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .fun-facts h4 {
+        font-family: 'Fredoka One', cursive;
+        color: #f093fb;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    .fun-facts p {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .search-box {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search-box input {
+        width: 100%;
+        padding: 18px 25px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 50px 0 0 50px;
+        outline: none;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .search-box button {
+        padding: 18px 30px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        border-radius: 0 50px 50px 0;
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+    }
+
+    .search-box button:hover {
+        background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    }
+
+    @media (max-width: 768px) {
+        .error-code {
+            font-size: 8rem;
+        }
+        
+        .error-title {
+            font-size: 1.8rem;
+        }
+        
+        .error-message {
+            font-size: 1.1rem;
+        }
+        
+        .btn-group {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .btn {
+            width: 100%;
+            max-width: 280px;
+            justify-content: center;
+        }
+        
+        .lost-game {
+            width: 150px;
+            height: 150px;
+        }
+        
+        .game-icon {
+            font-size: 5rem;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <!-- Animated Stars Background -->
+    <div class="stars" id="stars"></div>
+
+    <main class="error-container">
+        <div class="lost-game">
+            <i class="fas fa-ghost game-icon"></i>
+        </div>
+        
+        <div class="error-code">404</div>
+        
+        <h1 class="error-title">🎮 Oops! Game Over!</h1>
+        
+        <p class="error-message">
+            Looks like this page wandered off the game! Don't worry — even the best gamers hit a dead end. 
+            Let's get you back in the game! 🎯
+        </p>
+
+        <div class="btn-group">
+            <a href="/" class="btn btn-primary">
+                <i class="fas fa-home"></i> Go Home
+            </a>
+            <a href="/all-games/" class="btn btn-secondary">
+                <i class="fas fa-gamepad"></i> All Games
+            </a>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search for a game..." id="searchInput">
+            <button onclick="searchGame()">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+        <div class="suggestions">
+            <h3>🔥 Popular Pages</h3>
+            <div class="suggestion-links">
+                <a href="/category/io-games/"><i class="fas fa-globe"></i> IO Games</a>
+                <a href="/category/action/"><i class="fas fa-bolt"></i> Action</a>
+                <a href="/category/puzzle/"><i class="fas fa-puzzle-piece"></i> Puzzle</a>
+                <a href="/category/sports/"><i class="fas fa-football-ball"></i> Sports</a>
+                <a href="/category/multiplayer/"><i class="fas fa-users"></i> Multiplayer</a>
+                <a href="/about-us/"><i class="fas fa-info-circle"></i> About Us</a>
+            </div>
+        </div>
+
+        <div class="fun-facts">
+            <h4>💡 Did You Know?</h4>
+            <p>The number 404 is actually an HTTP status code meaning "Not Found". But don't feel bad — 
+            even the biggest websites have pages that go missing! The good news? You found us, and we're always here to help you find your next favorite game!</p>
+        </div>
+    </main>
+
+    <script>
+        // Create animated stars
+        function createStars() {
+            const starsContainer = document.getElementById('stars');
+            const starCount = 100;
+            
+            for (let i = 0; i < starCount; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.animationDelay = Math.random() * 2 + 's';
+                star.style.width = Math.random() * 3 + 1 + 'px';
+                star.style.height = star.style.width;
+                starsContainer.appendChild(star);
+            }
+        }
+
+        // Search functionality
+        function searchGame() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (query) {
+                window.location.href = '/all-games/?search=' + encodeURIComponent(query);
+            }
+        }
+
+        // Allow Enter key to search
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchGame();
+            }
+        });
+
+        // Initialize stars
+        createStars();
+    </script>
+</body>
+
+</html>
