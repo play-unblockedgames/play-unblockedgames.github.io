@@ -647,7 +647,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
-
+<script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "whmmvbsq4f");
+</script>
 // ----------------------------------------------------------
 // Client-side search overlay (auto-suggest) for the header search inputs.
 // Builds an in-memory index from the existing game grid and shows results as the user types.
